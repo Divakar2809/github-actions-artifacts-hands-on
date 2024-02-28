@@ -31,6 +31,6 @@ jobs:
 
       - name: display the content 
         run: |
-          ls -ltrh
+          ls -ltrha
           cat hello.txt
         
