@@ -30,5 +30,7 @@ jobs:
           name: hello-artifact
 
       - name: display the content 
-        run: cat .artifacts/hello.txt
+        run: |
+          ls -ltrh
+          cat hello.txt
         
